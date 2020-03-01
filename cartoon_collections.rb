@@ -37,7 +37,6 @@ end
 end
 binding.pry
  n=x.min
-
    array[n] 
  else 
    n=nil
