@@ -22,8 +22,6 @@ def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   n=nil
-  array.map{|word|
-  n=word if word=="cheddar"
-  }
+  array.index
   n
 end
