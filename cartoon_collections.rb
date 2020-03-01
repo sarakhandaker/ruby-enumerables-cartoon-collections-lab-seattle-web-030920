@@ -35,7 +35,6 @@ else
   item=item
 end
 end
-binding.pry
  n=x.min
    array[n] 
  else 
