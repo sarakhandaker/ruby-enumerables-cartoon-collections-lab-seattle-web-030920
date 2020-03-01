@@ -23,11 +23,11 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   if array.include?(cheese_types[0]) || array.include?(cheese_types[1])|| array.include?(cheese_types[2])
-  
- narray[0]=array.index("gouda")
- array[1]=array.index( "camembert")
- array[2]=array.index("cheddar")
- n=array.min
+  x=[]
+ x[0]=array.index("gouda")
+ x[1]=array.index( "camembert")
+ x[2]=array.index("cheddar")
+ n=x.min
    array[n] 
  else 
    n=nil
