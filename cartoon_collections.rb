@@ -14,7 +14,8 @@ end
 def long_planeteer_calls(array)# code an argument here
   # Your code here
   n=false
-  array.map{|word| n=true if stringword
+  array.map{|word| n=true if str.count(word)>4}
+  n
 end
 
 def find_the_cheese# code an argument here
