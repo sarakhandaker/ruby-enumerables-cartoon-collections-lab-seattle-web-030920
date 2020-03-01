@@ -22,5 +22,9 @@ def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
  n=array.index("cheddar" ||"gouda"||"camembert")
-  array[n]
+ if n
+   array[n] 
+ else 
+   n=nil
+ end
 end
