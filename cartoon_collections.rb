@@ -31,7 +31,7 @@ def find_the_cheese(array)# code an argument here
  x[2]=array.index("cheddar")
 x.map!{|item| item=4 if item==nil}
  n=x.min
-
+binding.pry
    array[n] 
  else 
    n=nil
