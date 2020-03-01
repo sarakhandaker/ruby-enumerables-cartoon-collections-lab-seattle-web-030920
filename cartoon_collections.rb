@@ -1,4 +1,4 @@
-
+require 'pry'
 def roll_call_dwarves(array)# code an argument here
   # Your code here
   array.each_with_index{ | item, index|
@@ -31,6 +31,7 @@ def find_the_cheese(array)# code an argument here
  x[2]=array.index("cheddar")
  x-[nil]
  n=x.min
+ binding.pry
    array[n] 
  else 
    n=nil
