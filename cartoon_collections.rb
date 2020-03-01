@@ -28,7 +28,6 @@ def find_the_cheese(array)# code an argument here
  array[1]=array.index( "camembert")
  array[2]=array.index("cheddar")
  n=array.min
- if n != nil
    array[n] 
  else 
    n=nil
