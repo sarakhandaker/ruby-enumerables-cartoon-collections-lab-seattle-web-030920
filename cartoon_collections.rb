@@ -29,7 +29,7 @@ def find_the_cheese(array)# code an argument here
  x[0]=array.index("gouda")
  x[1]=array.index( "camembert")
  x[2]=array.index("cheddar")
-    binding.pry
+
  n=x.min
 
    array[n] 
